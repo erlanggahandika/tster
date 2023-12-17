@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --light: #f6f6f9;
+    --primary: #1976D2;
+    --light-primary: #CFE8FF;
+    --grey: #eee;
+    --dark-grey: #AAAAAA;
+    --dark: #555;
+    --danger: #D32F2F;
+    --light-danger: #FECDD3;
+    --warning: #FBC02D;
+    --light-warning: #FFF2C6;
+    --success: #388E3C;
+    --light-success: #BBF7D0;
+    --wrnaside: #01074A;
+    --orencintah: rgb(255, 220, 25);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1 {
+    background: #14222d;
+    width: 100%;
+    height: 1200px;
+}
+
+.row-icon {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-top: 35px;
+}
+
+.icon-git p {
+    font-size: 35px;
+    font-weight: 800;
+    color: #0ab1ff;
+}
+
+.learn-more {
+    padding-top: 6px;
+}
+
+.learn-more a {
+    color: #FBC02D;
+
+}
+
+.titik {
+    color: #FBC02D;
+}
+
+.summary p {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.sekolahnya li {
+    color: #0ab1ff;
+}
+
+.nav-bar {
+    padding-left: 500px;
+    padding-top: 20px;
+}
+
+.nav-bar {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-bar1 {
+    padding-left: 60px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-bar1 a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.introduction {
+    padding-left: 20px;
+}
+
+
+.nav-bar1 a:hover {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FBC02D;
+}
+
+#active {
+    color: #FBC02D;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pengalmannkm img {
+    width: 170px;
+    height: 90px;
+}
+
+
+
+.rowlgih li {
+    color: #0ab1ff;
+    padding-top: 40px;
+}
+
+.kananpgnlm {
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.kananpgnlm p {
+
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600s;
+}
+
+.rowlgih {
+    display: flex;
+
+}
+
+.garisnyade {
+    width: 200px;
+    height: 200px;
+    border-left: 10px solid #0ab1ff;
+    border-top: 10px solid #0ab1ff;
+    border-radius: 5px;
+
+}
+
+.bglah {
+    background: url(profile.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 220px;
+    border-radius: 2px;
+}
+
+.contact-me {
+    padding-top: 25px;
+}
+
+.contact-me a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.border-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.border-contact {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #FBC02D;
+}
+
+.border-contact:hover {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #4070f4;
+}
+
+.name-ku {
+    padding-left: 100px;
+}
+
+.name-ku h4 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 90%;
+}
+
+.garis-dikitnya {
+    width: 80px;
+    height: 1px;
+    background-color: #FBC02D;
+}
+
+.row-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.medsos-me a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-content {
+    padding-top: 140px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sekolahnya {
+    padding-top: 25px;
+    gap: 20px;
+}
+
+.gapnys {
+    padding-top: 10px;
+}
+
+.sekolahnya p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.jnjanag-sklh {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.garis-dikit1 {
+    padding-top: 5px;
+}
+
+.garisnyakiri {
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.column-exper {
+    display: flex;
+    flex-direction: column;
+}
+
+.uides {
+    padding-top: 5px;
+}
+
+.uides h3 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.atunry {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.intro {
+    font-size: 22px;
+    color: #FBC02D;
+    font-weight: 600;
+}
+
+.bordder-kann {
+    width: 200px;
+    height: 200px;
+    border-right: 10px solid #0ab1ff;
+    border-bottom: 10px solid #0ab1ff;
+    border-radius: 5px;
+
+}
+
+.pengalaman-saya {
+    padding-left: 20px;
+}
+
+.pengalaman-saya h4 {
+    font-size: 22px;
+    color: #FBC02D;
+    font-weight: 600;
+}
+
+.rowdotlgi {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}
+
+.dot-line {
+    padding-left: 120px;
+}
+
+.dot-lineq {
+    padding-left: 10px;
+}
+
+.bungkus-dot {
+    padding-top: 10px;
+}
+
+.buletan-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FBC02D;
+}
+
+.education {
+    padding-top: 50px;
+}
+
+.education h4 {
+    font-size: 22px;
+    color: #FBC02D;
+}
+
+.bungkus-dotl {
+    padding-top: 10px;
+}
+
+.dot-lime {
+    width: 2px;
+    height: 350px;
+    background-color: #FBC02D;
+}
+
+.dot-lime1 {
+    width: 2px;
+    height: 530px;
+    background-color: #FBC02D;
+}
+
+.mobile-slide {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.my-edu {
+    padding-top: 10px;
+}
+
+.my-edu p {
+    color: #fff;
+}
+
+.mobile-only {
+    display: none;
+}
+
+/* ini buat hapee cuy jan lupa */
+@media screen and (max-width: 576px) {
+    .mobile-only {
+        display: flex;
+    }
+
+    .mobile-only {
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .mobile-only img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .logokm6 img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .experience {
+        display: none;
+    }
+
+    .garisnyakiri {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dot-lime {
+        width: 2px;
+        height: 460px;
+        background-color: #FBC02D;
+    }
+
+    .mobile-slide {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+
+    .dot-line {
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+
+    .section1 {
+        background: #14222d;
+        width: 100%;
+        height: 110%;
+    }
+
+    .row-icon {
+        display: flex;
+        flex-direction: row;
+        padding-left: 50px;
+        padding-top: 35px;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-bar1 {
+        display: none;
+    }
+
+    .about-content {
+        padding-top: 60px;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .garisnyakiri {
+        padding-left: 20px;
+    }
+
+    .name-ku {
+        padding-left: 20px;
+        padding-top: 60px;
+    }
+
+    .introduction {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+
+}
